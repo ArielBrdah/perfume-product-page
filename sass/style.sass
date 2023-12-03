@@ -104,3 +104,27 @@ body
 
 		&:hover
 			background: var(--c-darkblue)
+
+@media (max-width: 600px)
+	.card
+		width: 340px
+		height: 610px
+		flex-direction: column
+		max-width: 340px
+
+		& > *
+			width: 340px
+
+		&__header
+			max-height: 240px
+
+		&__header &__img
+			width: 100%
+
+		&__body
+			max-height: 370px
+			height: 370px
+			padding: 1.5rem
+		
+		&__title
+			max-width: 100%

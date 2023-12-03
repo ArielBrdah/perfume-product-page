@@ -104,4 +104,30 @@ body {
   background: var(--c-darkblue);
 }
 
+@media (max-width: 600px) {
+  .card {
+    width: 340px;
+    height: 610px;
+    flex-direction: column;
+    max-width: 340px;
+  }
+  .card > * {
+    width: 340px;
+  }
+  .card__header {
+    max-height: 240px;
+  }
+  .card__header .card__img {
+    width: 100%;
+  }
+  .card__body {
+    max-height: 370px;
+    height: 370px;
+    padding: 1.5rem;
+  }
+  .card__title {
+    max-width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
