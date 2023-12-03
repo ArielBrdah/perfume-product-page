@@ -65,6 +65,7 @@ body {
   font-family: Fraunces;
   line-height: 0.9;
   max-width: 195px;
+  font-size: 2rem;
 }
 .card__description {
   line-height: 1.7;
@@ -97,6 +98,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.7rem;
+  font-weight: 800;
 }
 .card__btn:hover {
   background: var(--c-darkblue);
